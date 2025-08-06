@@ -1,32 +1,29 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# Archivos de salida de compilación
+*.eep
+*.elf
+*.hex
+*.lss
+*.map
+*.srec
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
+*.d
 *.a
-*.lib
-
-# Executables
-*.exe
 *.out
-*.app
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Carpetas de depuración
+Debug/
+Release/
+
+# Archivos de proyecto específicos de Microchip Studio (opcional)
+*.cproj.*
+*.depend
+
+# Otros
+makedep.mk
+Makefile
